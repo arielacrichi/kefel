@@ -1,0 +1,28 @@
+body {
+    background-image:
+        url(https://images.pexels.com/photos/20818857/pexels-photo-20818857/free-photo-of-crumpled-checkered-sheet-of-paper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+h1 , h2 {
+    margin-left: 35%;
+}
+
+table {
+    background-color: white;
+    margin-left: 30%;
+}
+
+.tableBox , .tableTitle {
+    border: 1px solid;
+    width: 15px; 
+    height: 15px;
+    padding: 12px;
+}
+
+.tableTitle {
+    font-weight: bold;
+}
+
+.tableBox {
+    content-visibility: hidden;
+}
