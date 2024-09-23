@@ -2,7 +2,7 @@ const num = 11
 document.write('<table>')
 document.write('<thead>')
 for (i = 1; i < num; i++) {
-    document.write(`<th class="tableTitle">${i}</td>`)
+    document.write(`<th class="tableTitle">${i}</th>`)
 }
 document.write('</thead>')
 for (i = 2; i < num; i++) {
