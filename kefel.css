@@ -14,8 +14,8 @@ table {
 
 .tableBox , .tableTitle {
     border: 1px solid;
-    width: 15px; 
-    height: 15px;
+    width: 20px; 
+    height: 20px;
     padding: 12px;
 }
 
@@ -29,6 +29,6 @@ table {
 
 @media screen and (max-width: 800px) {
     h1, h2, table{
-        margin-left: 10%;
+        margin-left: 1%;
     }
 }
