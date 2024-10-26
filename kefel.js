@@ -20,7 +20,10 @@ for (i = 2; i < num; i++) {
 document.write('</table')
 
 Array.from(document.querySelectorAll('.tableBox')).map((el) => {
-    el.addEventListener('click', () => {
-        el.style.contentVisibility = 'visible';
+    el.addEventListener('click', (event) => {
+        Array.from(document.querySelectorAll('.tableBox')).map(box=>{
+            box.style.contentVisibility = 'hidden   '
+        })
+        event.target.style.contentVisibility = 'visible';
     })
 })
